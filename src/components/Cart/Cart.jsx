@@ -79,7 +79,6 @@ function Cart() {
                             
                         </div>
                         <div className='cart__btns'>
-                            
                                 <div className='cart__goback-container'>
                                     <Link to='/'><button className='btn'>Regresar a la tienda</button></Link>
                                 </div>

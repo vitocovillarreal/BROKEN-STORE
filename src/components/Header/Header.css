@@ -22,7 +22,6 @@
     display: flex;
     justify-content: space-between;
     width: 72vw;
-    
 }
 
 .header__logo {
@@ -31,12 +30,6 @@
     opacity: 1;
 }
 
-.header__logo2 {
-    position: absolute;
-    height: 4.7rem;
-    left: 24.5vw;
-    opacity: 0;
-}
 .header__burger {
     padding: .8rem;
     display: none;

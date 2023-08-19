@@ -15,7 +15,6 @@
     gap: 0px 0px; 
 }
 
-/* ---- TITULO ---- */
 .item-detail__title-container { 
     grid-area: 1 / 1 / 2 / 4; 
 }
@@ -25,7 +24,6 @@
 
 }
 
-/* --- IMAGENES --- */
 .item-detail__image-container { 
     grid-area: 2 / 1 / 3 / 3; 
     display: flex;
@@ -42,7 +40,6 @@
     filter: drop-shadow(5px 5px 5px #031a0743);
 }
 
-/* ----- INFO DE VENTA ---- */
 .item-detail__sales-data { 
     grid-area: 2 / 3 / 4 / 4; 
     display: flex;
@@ -77,7 +74,6 @@
     border-radius: 4px;
 }
 
-/* ---- info producto y detalles --- */
 .item-detail__detail-container { 
     grid-area: 3 / 1 / 4 / 3;
 }
@@ -116,7 +112,6 @@
     width: 30vw;
 }
 
-/* --- Media querys --- */
 @media screen and (max-width: 1093px) {
     .item-detail__outer {
         max-width: 90%;
@@ -200,7 +195,6 @@
         width: 65vw;
     }
 }
-
 
 @media screen and (max-width:480px) {
     .item-detail__inner {

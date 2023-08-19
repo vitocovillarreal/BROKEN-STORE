@@ -1,4 +1,3 @@
-/* ---CARD --- */
 .card-container {
     margin: 8px;
     border-style: solid;
@@ -26,7 +25,7 @@
 }
 
 .card {
-    /* width: 17rem; */
+    width: 17rem;
     display: flex;
     justify-content: center;
 }
@@ -41,12 +40,12 @@
     align-items: center;
 }
 
-/* --- IMAGE --- */
 .card__image-container {
     width: 100%;
     text-align: center;
     
 }
+
 .card__image {
     max-height: 12rem;
     border-bottom-style: solid;
@@ -56,9 +55,6 @@
     filter: drop-shadow(5px 5px 5px #031a0743);
 }
 
-
-
-/* ---- INFO CARD  */
 .card__info-container {
     width: 100%;
     height: 6rem;
@@ -84,16 +80,7 @@
     display: flex;
     align-items: center;
 }
-.card__hoja-container {
-    width: 15%;
-    text-align: center;
-    display: flex;
-    align-items: center;
 
-}
-.card__hoja {
-    width: 100%;
-}
 .card__price-container {
     width: 35%;
     text-align: end;

@@ -1,26 +1,3 @@
-.app__brazo-text {
-    position: absolute;
-    width: 20rem;
-    text-align: center;
-    bottom: 0
-}
-
-.app__brazo-container {
-    display: flex;
-    justify-content: center;
-    align-content: flex-end;
-    position: relative;
-    height: 30rem;
-    z-index: -1;
-}
-
-.app__brazo-logo {
-    position: absolute;
-    width: 20rem;
-    text-align: center;
-    bottom: 0
-}
-
 .item-list__inner {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));

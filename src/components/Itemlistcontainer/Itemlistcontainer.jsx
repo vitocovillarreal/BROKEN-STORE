@@ -1,7 +1,6 @@
 import './Itemlistcontainer.css';
 import Itemlist from "../Itemlist/Itemlist"
 
-
 function Itemlistcontainer() {
     
     return (

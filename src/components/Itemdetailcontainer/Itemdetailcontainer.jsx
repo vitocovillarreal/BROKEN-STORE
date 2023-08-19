@@ -34,10 +34,8 @@ function Itemdetailcontainer() {
                     img={data.img}
                     stock={data.stock}
                     price={data.price}
-                    ingredientes={data.ingredientes}
-                    extradetail={data.extradetail}
-                    imgaminograma={data.imgaminograma}
-                    imgnutri={data.imginfonutri}
+                    img2={data.img2}
+                    img3={data.img3}
                     />
             </div> 
         </>

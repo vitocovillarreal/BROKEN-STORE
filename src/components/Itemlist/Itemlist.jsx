@@ -33,7 +33,6 @@ function Itemlist(){
         <div>
             {isLoading && <Loader/>}
             <div className="item-list__inner">
-                
                 {
                 data.map((item)=> {
                     return (

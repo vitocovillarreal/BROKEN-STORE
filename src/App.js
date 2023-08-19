@@ -14,6 +14,7 @@ import { Checkoutend } from './components/Checkout/Checkout';
 import Ubicacion from './pages/Ubicacion';
 import About from './pages/About';
 // import { exportDataToFirestore } from './services/firestore'; // import comentado para cuando quiera volver a llevar data a firestore
+
 function App() {
     return (
             <BrowserRouter>

@@ -1,0 +1,62 @@
+.app__brazo-text {
+    position: absolute;
+    width: 20rem;
+    text-align: center;
+    bottom: 0
+}
+
+.app__brazo-container {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    position: relative;
+    height: 30rem;
+    z-index: -1;
+}
+
+.app__brazo-logo {
+    position: absolute;
+    width: 20rem;
+    text-align: center;
+    bottom: 0
+}
+
+.item-list__inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    grid-auto-rows: auto;
+    gap: 1px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+}
+
+@media screen and (max-width: 1093px) {
+    .item-list__inner {
+        grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+        padding-left: 2%;
+        padding-right: 2%;
+  }
+}
+@media screen and (max-width: 920px) {
+    .item-list__inner {
+        grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+        padding-left: 2%;
+        padding-right: 2%;
+  }
+}
+@media screen and (max-width: 720px) {
+    .item-list__inner {
+        grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+        padding-left: 3%;
+        padding-right: 3%;
+  }
+}
+@media screen and (max-width:480px) {
+    .item-list__inner {
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+        padding-left: 2%;
+        padding-right: 2%;
+  }
+  
+}

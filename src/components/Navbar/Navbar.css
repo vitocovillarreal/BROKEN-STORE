@@ -1,0 +1,118 @@
+.App-header__nav-container {
+    width: 95%;
+    border-radius: 4px;
+    top: 7rem;
+    z-index: 2;
+    display: flex;
+}
+
+.App-header__nav {
+    width: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowflex {
+    display: flex;
+    flex-direction: row;
+}
+
+nav.App-header__nav ul li {
+    list-style: none;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 0 2.5vw;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+nav.App-header__nav li a {
+    color: rgb(1, 4, 0);
+}
+nav.App-header__nav li a:hover {
+    color: rgb(234, 179, 8);
+}
+nav.App-header__nav li:hover {
+    cursor: pointer;
+}
+nav.App-header__nav ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    padding-left: 0;
+    left: 0;
+    display: none;
+    background: rgb(229, 230, 229);
+}
+nav.App-header__nav ul li:hover > ul,
+nav.App-header__nav ul li ul:hover {
+    visibility: visible;
+    animation: hovermenu 150ms ease-in;
+    opacity: .95;
+    transition: all 0.8s ease;
+    display: block;
+    min-width: 290px;
+    text-align: left;
+    padding-top: 20px;
+    box-shadow: 0px 3px 5px -1px #ccc;
+}
+nav.App-header__nav ul li ul li {
+    clear: both;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    border-style: none;
+}
+nav.App-header__nav ul li ul li a:hover {
+    padding-left: 10px;
+    transition: all 0.3s ease;
+}
+
+ul li ul li a {
+    transition: all 0.5s ease;
+}
+
+.nav__titles {
+    text-decoration: none;
+    padding: 0px;
+    color:white;
+    text-transform: none;
+    letter-spacing: 1px !important;
+    line-height: 1.5;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.nav__titles:hover {
+    color:rgb(234, 179, 8);
+}
+.pointer-none {
+    cursor: default;
+}
+@keyframes hovermenu {
+    from { 
+        opacity: 0;  
+    }
+    to { 
+        opacity: .95;
+    }
+}
+@media screen and (max-width: 2440px) {
+    nav.App-header__nav ul li {
+        padding: 0 2.2vw;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .App-header__nav-container  {
+        width: 100%;
+    }
+    nav.App-header__nav ul li {
+        padding: 0 .6vw;
+    }
+}
+@media screen and (max-width: 812px) {
+    .App-header__nav-container  {
+        display: none;
+    }
+}

@@ -1,0 +1,60 @@
+.drawer__nav {
+    width: 95%;
+}
+ul {
+    list-style-type: none;
+}
+
+.drawer__submenu {
+    margin: .4rem;
+}
+li {
+    margin-bottom: .6rem;
+}
+nav.drawer__nav li a {
+    color: rgb(1, 4, 0);
+}
+nav.drawer__nav li a:hover {
+    color: rgb(234, 179, 8);
+}
+
+nav.drawer__nav ul li ul {
+    padding-left: 0;
+    left: 0;
+}
+nav.drawer__nav ul li:hover > ul,
+nav.drawer__nav ul li ul:hover {
+    transition: all 0.8s ease;
+    min-width: 250px;
+    text-align: left;
+    
+}
+nav.drawer__nav ul li ul li a:hover {
+    padding-left: 10px;
+    transition: all 0.3s ease;
+}
+.drawer__title {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 1px !important;
+    line-height: 1.5;
+    margin-left: .4rem;
+}
+.drawer__title:hover {
+    color:rgb(234, 179, 8);
+
+}
+
+.drawer__submenu {
+    padding: 1rem !important;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+ .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    background-color:#e5e6e5 !important; 
+} 
+

@@ -1,0 +1,126 @@
+.header-container {
+    height: 18rem;
+    max-height: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(1, 4, 0);
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+}
+
+.header__logo-container {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 72vw;
+    
+}
+
+.header__logo {
+    height: 2rem;
+    display:block;
+    opacity: 1;
+}
+
+.header__logo2 {
+    position: absolute;
+    height: 4.7rem;
+    left: 24.5vw;
+    opacity: 0;
+}
+.header__burger {
+    padding: .8rem;
+    display: none;
+}
+
+.header__btns{
+    display: flex;
+    flex-direction: row;
+
+}
+.header__cartwidget-container {
+    display: none;
+}
+
+@keyframes desaparecerlogo {
+    from {opacity: 1; }
+    to {opacity: 0; display: none;}
+}
+
+@keyframes aparecerlogo {
+    from {opacity: 0; }
+    to {opacity: 1; }
+}
+
+@keyframes aparecerespiral {
+    0% {opacity: 0; rotate: 0deg;}
+    4% {opacity: 1;}
+    100% {rotate: 390deg;}
+}
+
+@media screen and (max-width: 1093px) {
+    .header__logo-container  {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .header__logo {
+        height: 95%;
+    }
+    .header__logo-container  {
+        width: 95%;
+    }
+    .header__cartwidget-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-container {
+        height: 6rem;
+    }
+    .header__burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .header__logo-container  {
+        width: 100%;
+    }
+    .header__logo {
+        height: 90%;
+    }
+}   
+
+@media screen and (max-width: 480px) {
+    .header__logo {
+        height: 80%;
+    }
+    .header__logo-container  {
+        height: 100%;
+    }
+    .header__burger {
+        padding: 0rem;
+    }
+    .header__logo-link {
+        width: 66%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo-container  {
+        width: 95%;
+    }
+}

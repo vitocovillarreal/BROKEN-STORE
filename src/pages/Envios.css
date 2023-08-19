@@ -1,0 +1,37 @@
+.envios__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+    margin-left: 17vw;
+    margin-right: 17vw;
+    gap: 3rem;
+}
+.envios__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.envios__image-container {
+    width: 130vw;
+}
+.envios__image {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .envios__container {
+
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+    .envios__image-container {
+        width: 130rem;
+    }
+    .envios__image {
+        width: 100%;
+    }
+}

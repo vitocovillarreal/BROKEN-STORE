@@ -1,0 +1,227 @@
+.item-detail__outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70rem;
+    padding: 1px;
+}
+
+.item-detail__inner {
+    display: grid; 
+    padding: 4px;
+    grid-template-columns: 1fr .9fr 0.6fr; 
+    grid-template-rows: .2fr 1.5fr.3fr; 
+    gap: 0px 0px; 
+}
+
+/* ---- TITULO ---- */
+.item-detail__title-container { 
+    grid-area: 1 / 1 / 2 / 4; 
+}
+
+.item-detail__title {
+    padding: 1rem;
+
+}
+
+/* --- IMAGENES --- */
+.item-detail__image-container { 
+    grid-area: 2 / 1 / 3 / 3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 221, 216);
+    border-radius: 10px;
+    margin: 0 2rem 2rem 0;
+}
+.item-detail__image {
+    width: 70%;
+    height: auto;
+    -webkit-filter: drop-shadow(5px 5px 5px #031a0757);
+    filter: drop-shadow(5px 5px 5px #031a0743);
+}
+
+/* ----- INFO DE VENTA ---- */
+.item-detail__sales-data { 
+    grid-area: 2 / 3 / 4 / 4; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-detail__price {
+    margin-bottom: 2rem;
+}
+.item-detail__envios-p {
+    font-size: .8rem;
+    font-style: italic;
+    text-align: justify;
+}
+
+.item-detail__itemcount {
+    margin-top: 1rem;
+    height: 100%;
+}
+
+.flexbtn {
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-detail__agotado {
+    background-color:rgba(169, 169, 169, 0.486);
+    padding: 12px;
+    border-radius: 4px;
+}
+
+/* ---- info producto y detalles --- */
+.item-detail__detail-container { 
+    grid-area: 3 / 1 / 4 / 3;
+}
+
+.item-detail__extra-detail {
+    margin-top: 1rem;
+    width: 100vw;
+    padding: 4rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    background-color: rgba(192, 194, 49, 0.116);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.item-detail__image-amino {
+    width: 40vw;
+}
+
+.item-detail__detail-p {
+    font-size: 1.1rem;
+}
+
+.item-detail__extra-detail2 {
+    width: 99vw;
+    padding: 4rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.item-detail__image-nutri {
+    width: 30vw;
+}
+
+/* --- Media querys --- */
+@media screen and (max-width: 1093px) {
+    .item-detail__outer {
+        max-width: 90%;
+    }
+
+    .item-detail__image-amino {
+        width: 45vw;
+    }
+    .item-detail__image-nutri {
+        width: 40vw;
+    }
+}
+@media screen and (max-width: 920px) {
+    .item-detail__outer {
+        max-width: 90%;
+    }
+
+}
+@media screen and (max-width: 812px) {
+    .item-detail__outer {
+        max-width: 90%;
+    }
+
+    .item-detail__extra-detail2 {
+        padding: 2rem;
+    }
+    .item-detail__extra-detail {
+        padding: 2rem;
+    }
+    .item-detail__image-container {
+        width: 100%;
+    }
+    .item-detail__image {
+        width: 100%;
+    }
+    .item-detail__inner {
+        position: relative;
+        max-width: 100%;
+    }
+
+}
+@media screen and (max-width: 740px) {
+    .item-detail__sales-data {
+        width: 80%;
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width: 720px) {
+    .item-detail__outer {
+        max-width: 90%;
+    }
+    .item-detail__extra-detail2 {
+
+        padding-left: 5rem;
+        padding-right: 5rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .item-detail__extra-detail {
+ 
+        padding-left: 5rem;
+        padding-right: 5rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .item-detail__itemcount {
+        height: 30%;
+    }
+    .item-detail__sales-data {
+        width: 85%;
+        margin-left: 1rem;
+    }
+    .item-detail__image-container {
+        width: 85%;
+      }
+
+      .item-detail__image-amino {
+        width: 65vw;
+    }
+      .item-detail__image-nutri {
+        width: 65vw;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .item-detail__inner {
+        display: grid; 
+        grid-template-columns: 1fr .9fr 0.6fr; 
+        grid-template-rows: .2fr .5fr .3fr .3fr; 
+    }
+    .item-detail__image-container {
+        width: 85%;
+        grid-area: 1 / 4 / 2 / 2;
+        margin-top: 10vh;
+      }
+      .item-detail__sales-data {
+
+        width: 12rem;
+        margin-left: 1rem;
+      }
+      .item-detail__image-amino {
+        width: 85vw;
+    }
+      .item-detail__image-nutri {
+        width: 85vw;
+    }
+}

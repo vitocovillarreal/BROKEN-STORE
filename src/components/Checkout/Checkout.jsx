@@ -8,7 +8,7 @@ import Loader from '../Loader/Loader'
 import './Checkout.css'
 
 function Checkout(){
-    const [dataForm, setDataForm] = useState({name:'', apellido:'', phone:'', email:'', confirmEmail:''})
+    const [dataForm, setDataForm] = useState({nombre:'', apellido:'', celular:'', email:'', confirmEmail:''})
     const { cart, getItemPrice, emptyCart, getOrderId} = useContext(CartContext)
     const [isLoading, setIsLoading] = useState(false)
     const navigate = useNavigate()

@@ -13,7 +13,7 @@ import Indexcontainer from './components/Indexcontainer/Indexcontainer'
 import { Checkoutend } from './components/Checkout/Checkout';
 import Ubicacion from './pages/Ubicacion';
 import About from './pages/About';
-// import { exportDataToFirestore } from './services/firestore'; // import comentado para cuando quiera volver a llevar data a firestore
+import { exportDataToFirestore } from './services/firestore';
 
 function App() {
     return (
@@ -21,7 +21,7 @@ function App() {
                  <div className='app__container'>
                     <MyProvider>                      
                         <Header />
-                         {/*<button onClick={exportDataToFirestore}>Mostrar datos</button>*/ }
+                            <button onClick={exportDataToFirestore}>Mostrar datos</button>
                         <Routes> 
                             <Route path="/" element={ < Indexcontainer />}/>
                             <Route path="/products" element={ < Itemlistcontainer />}/>

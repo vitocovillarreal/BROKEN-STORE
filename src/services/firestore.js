@@ -1,11 +1,6 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import {getFirestore, collection, getDocs, doc, getDoc, query, where, addDoc} from 'firebase/firestore'
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyCj3AzTSmUiCn5HHQEFY5tqb5E4xNV7ZDk",
   authDomain: "broken-store.firebaseapp.com",
@@ -15,12 +10,12 @@ const firebaseConfig = {
   appId: "1:212380632366:web:956a55acd96a206058a6bf"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
 export async function getItems(){
     const miColeccion = collection(firestore, 'productos')
-    let snapShotDB = await getDocs(miColeccion) // captura del estado de la base de datos
+    let snapShotDB = await getDocs(miColeccion)
     let dataDocs = snapShotDB.docs.map((doc) => {
         let docFormateado = {...doc.data(), id: doc.id}
         return docFormateado
@@ -41,7 +36,7 @@ export async function getBestItems(){
 }
 
 export async function getSingleItem(idParams){
-    const docRef = doc(firestore, 'productos', idParams) // referencia al un documento
+    const docRef = doc(firestore, 'productos', idParams)
     const docSnapshot = await getDoc(docRef)
     return {...docSnapshot.data(), id:docSnapshot.id}
 }
@@ -171,7 +166,7 @@ export async function exportDataToFirestore(){
             price: 11500,
             stock: 8,
             category: 'Polerones',
-            subcategory: 'Oversize',
+            subcategory: 'Hoodie',
             destacado: false,
             tipo: 'Oversize',
             img: '/products/buzo03.jpg',

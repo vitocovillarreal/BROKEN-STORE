@@ -8,10 +8,8 @@ function Envios() {
             <div className='envios__block'>
                 <div>
                     <h2>
-                    Cobertura Envíos
-                    Enviamos a gran parte de Santiago y a casi todo Chile!
-                    En santiago por favor selecciona el tipo de envío que prefieres.
-                    Recuerda elegir correctamente tu despacho ya que podrían ser anuladas las órdenes mal realizadas.
+                    POLITICAS DE ENVIO y DEVOLUCIONES:
+                    TODAS LAS COMPRAS DE LOS PRODUCTOS PRODUCTOS PRE ORDER TIENEN PLAZOS DE ENVIO ESPECIALES ENTRE: 15 DIAS HABILES en envió y retiro, verifica si tu compra tiene productos PRE ORDER revisando la descripción en la página de este (página de producto)
                     </h2>
                 </div>
                 <div>
@@ -34,7 +32,7 @@ function Envios() {
                 </div>
                 <div>
                     <h2>
-                    Elige el Envío “Stgo Alrededores” para comunas fuera del área conocida como urbana en la región metropolitana. Su cobertura es la siguiente </h2>
+                    Elige el Envío “Stgo Alrededores” para comunas fuera del área conocida como urbana en la Región Metropolitana. Su cobertura es la siguiente</h2>
                     <p>En las comunas mencionadas podría llegar a domicilio o retiro de empresas de envíos dependiendo de la cobertura.
                     </p>
                 </div>
@@ -42,8 +40,8 @@ function Envios() {
             <div>
                 <h2>
                 Para regiones; simplemente selecciona tu región, y en el detalle especifica la comuna, llegamos a la mayoría. Podríamos no llegar a ciertos sectores o existir sólo disponibilidad de retiro en oficinas de Starken, Chilexpress, Correos u otros de tu ciudad. En ese caso te contactaremos y buscaremos juntos la mejor alternativa.
-                Hablemos en contacto@ironplant.cl para cualquier duda relacionada con tu envío.
-                Iron Plant Suplementos Veganos
+                Hablemos en contacto@broken.store para cualquier duda relacionada con tu envío.
+                BROKEN-STORE
                 </h2>
             </div>
         </div>

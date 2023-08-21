@@ -9,8 +9,8 @@ function Footer() {
             <footer>
                 <div className='footer__envios'>
                     <p>Envíos a todo Chile</p>
-                    <p>Visítanos en MUT, local 210 - Metro tobalaba</p>
-                    <p><b>Horario:</b> Lunes a viernes 11 a 19 hrs </p>
+                    <p>Visítanos en MUT, local 210 - Av. Apoquindo 2730, Las Condes, Región Metropolitana, Salida MUT Metro Toablaba</p>
+                    <p><b>Horario:</b> Lun - Dom 8:00 - 20:00 hrs. </p>
                 </div>
                 <div className='footer__siguenos'>
                     <h2>Síguenos: </h2>

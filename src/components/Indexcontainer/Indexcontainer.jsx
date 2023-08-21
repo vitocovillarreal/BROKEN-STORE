@@ -50,7 +50,6 @@ function Indexcontainer(){
                 </div>
             </div>
         </div>
-        
     )
 }
 

@@ -76,7 +76,6 @@ function Cart() {
                                 <h2>Total (más envío):</h2>
                                 <h2>{getItemPrice() + 4990}</h2>
                             </div>
-                            
                         </div>
                         <div className='cart__btns'>
                                 <div className='cart__goback-container'>

@@ -37,15 +37,15 @@ export default function Temporarydrawer() {
                             <h3 className="nav__titles">Productos{<ArrowDropDownIcon/>}</h3>
                         </Link>
                         <ul className="dropdown">
-                            <li><Link to="category/ganadores-de-peso" >Poleras</Link></li>
-                            <li><Link to="category/vitaminas-y-minerales">Polerones</Link></li>
-                            <li><Link to="category/carbohidratos">Pantalones</Link></li>
-                            <li><Link to="category/probioticos">Accesorios</Link></li>
+                            <li><Link to="category/Poleras" >Poleras</Link></li>
+                            <li><Link to="category/Polerones">Polerones</Link></li>
+                            <li><Link to="category/Pantalones">Pantalones</Link></li>
+                            <li><Link to="category/Accesorios">Accesorios</Link></li>
                         </ul>
                     </li>
             <li><Link to="/envios"><h2 className='drawer__title'>Envíos</h2></Link></li>
             <li><Link to="/ubicacion"><h2 className='drawer__title'>Ubicación</h2></Link></li>
-            <li><Link to="/about"><h2 className='drawer__title'>Sobre nosotros</h2></Link></li>
+            <li><Link to="/about"><h2 className='drawer__title'>About</h2></Link></li>
         </ul>
       </nav>
     </Box>

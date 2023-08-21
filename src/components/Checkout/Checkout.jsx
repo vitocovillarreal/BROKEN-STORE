@@ -50,7 +50,6 @@ function Checkout(){
         if(arroba === false){
             thetoast(`Email no valido!`)
         }
-
         if(dataForm.email !== dataForm.confirmEmail){
             thetoast(`Los Email no coinciden!`)
         }

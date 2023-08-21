@@ -18,12 +18,12 @@ function Navbar() {
                             <li><Link to="category/Poleras" >Poleras</Link></li>
                             <li><Link to="category/Polerones">Polerones</Link></li>
                             <li><Link to="category/Pantalones">Pantalones</Link></li>
-                            <li><Link to="category/probioticos">Accesorios</Link></li>
+                            <li><Link to="category/Accesorios">Accesorios</Link></li>
                         </ul>
                     </li>
                     <li className="nav__sections"><Link to="/envios"><h3 className="nav__titles">Envíos</h3></Link></li>
                     <li className="nav__sections"><Link to="/ubicacion"><h3 className="nav__titles">Ubicación</h3></Link></li>
-                    <li className="nav__sections"><Link to="/about"><h3 className="nav__titles">Sobre nosotros</h3></Link></li>
+                    <li className="nav__sections"><Link to="/about"><h3 className="nav__titles">About</h3></Link></li>
                 </ul>
             </nav>
             <Cartwidget/>
